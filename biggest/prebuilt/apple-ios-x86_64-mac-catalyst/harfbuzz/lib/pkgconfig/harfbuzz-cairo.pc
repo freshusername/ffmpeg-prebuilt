@@ -1,0 +1,12 @@
+prefix=/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-x86_64-mac-catalyst/harfbuzz
+exec_prefix=/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-x86_64-mac-catalyst/harfbuzz
+libdir=/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-x86_64-mac-catalyst/harfbuzz/lib
+includedir=/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-x86_64-mac-catalyst/harfbuzz/include
+
+Name: harfbuzz cairo integration
+Description: HarfBuzz cairo integration
+Version: 8.0.1
+
+Requires: harfbuzz = 8.0.1
+Libs: -L${libdir} -lharfbuzz-cairo
+Cflags: -I${includedir}/harfbuzz
