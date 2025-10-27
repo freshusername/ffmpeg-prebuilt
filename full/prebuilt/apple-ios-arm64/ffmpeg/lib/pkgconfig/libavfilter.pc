@@ -1,0 +1,14 @@
+prefix=/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/ffmpeg
+exec_prefix=${prefix}
+libdir=/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/ffmpeg/lib
+includedir=/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/ffmpeg/include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 9.3.100
+Requires: 
+Requires.private: libswscale >= 7.1.100, libavformat >= 60.3.100, libavcodec >= 60.3.100, libswresample >= 4.10.100, libavutil >= 58.2.100
+Conflicts:
+Libs: -L${libdir}  -lavfilter 
+Libs.private: -pthread -lm -L/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/fribidi/lib -lfribidi -L/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/libass/lib -lass -L/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/fontconfig/lib -lfontconfig -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/usr/lib -L/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/expat/lib -lexpat -liconv -L/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/harfbuzz/lib -lharfbuzz -L/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/fribidi/lib -lfribidi -L/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/freetype/lib -lfreetype -L/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/libpng/lib -lpng -L/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/fontconfig/lib -lfontconfig -L/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/freetype/lib -lfreetype -L/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/libpng/lib -lpng -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/usr/lib -L/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/expat/lib -lexpat -liconv -L/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/freetype/lib -lfreetype -L/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/libpng/lib -lpng
+Cflags: -I${includedir}

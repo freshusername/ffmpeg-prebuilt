@@ -1,0 +1,11 @@
+./ios.sh \
+      --xcframework \
+      --target=12.1 \
+      --enable-gpl \
+      --enable-x264 \
+      --enable-libpng \
+      --enable-freetype \
+      --enable-fribidi \
+      --enable-harfbuzz \
+      --enable-fontconfig \
+      --enable-libass

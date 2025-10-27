@@ -1,0 +1,13 @@
+prefix=/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64e/harfbuzz
+exec_prefix=/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64e/harfbuzz
+libdir=/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64e/harfbuzz/lib
+includedir=/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64e/harfbuzz/include
+
+Name: harfbuzz
+Description: HarfBuzz text shaping library
+Version: 8.0.1
+
+Libs: -L${libdir} -lharfbuzz
+Libs.private: -lm      
+Requires.private:  freetype2 >= 12.0.6 
+Cflags: -I${includedir}/harfbuzz
