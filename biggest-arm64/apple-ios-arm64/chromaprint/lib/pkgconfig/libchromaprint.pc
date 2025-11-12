@@ -1,0 +1,12 @@
+prefix=/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/chromaprint
+exec_prefix=/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/chromaprint
+libdir=/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/chromaprint/lib
+includedir=/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/chromaprint/include
+
+Name: chromaprint
+Description: Audio fingerprint library
+URL: http://acoustid.org/chromaprint
+Version: 1.5.1
+Libs: -L/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/chromaprint/lib -lchromaprint
+Cflags: -I/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/chromaprint/include
+

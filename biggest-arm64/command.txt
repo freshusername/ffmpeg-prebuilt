@@ -1,0 +1,30 @@
+./ios.sh \
+    --xcframework \
+    --target=12.1 \
+    --enable-gpl \
+    --enable-x264 \
+    --enable-x265 \
+    --enable-libvpx \
+    --enable-libpng \
+    --enable-freetype \
+    --enable-fribidi \
+    --enable-harfbuzz \
+    --enable-fontconfig \
+    --enable-libass \
+    --enable-zimg \
+    --enable-soxr \
+    --enable-opus \
+    --enable-libvorbis \
+    --enable-libvidstab \
+    --enable-chromaprint \
+    --enable-openssl \
+    --enable-ios-videotoolbox \
+    --enable-ios-audiotoolbox \
+    --enable-ios-avfoundation \
+    --enable-ios-libiconv \
+    --enable-ios-zlib \
+    --disable-arm64e \
+    --disable-x86-64 \
+    --disable-x86-64-mac-catalyst \
+    --disable-arm64-mac-catalyst \
+    --disable-arm64-simulator

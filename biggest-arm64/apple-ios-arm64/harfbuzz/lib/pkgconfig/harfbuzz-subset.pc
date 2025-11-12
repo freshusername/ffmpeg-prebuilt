@@ -1,0 +1,12 @@
+prefix=/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/harfbuzz
+exec_prefix=/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/harfbuzz
+libdir=/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/harfbuzz/lib
+includedir=/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64/harfbuzz/include
+
+Name: harfbuzz subsetter
+Description: HarfBuzz font subsetter
+Version: 8.0.1
+
+Requires: harfbuzz = 8.0.1
+Libs: -L${libdir} -lharfbuzz-subset
+Cflags: -I${includedir}/harfbuzz

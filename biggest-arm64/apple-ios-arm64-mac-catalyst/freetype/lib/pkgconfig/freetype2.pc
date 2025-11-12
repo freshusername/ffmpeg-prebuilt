@@ -1,0 +1,14 @@
+prefix=/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64-mac-catalyst/freetype
+exec_prefix=/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64-mac-catalyst/freetype
+libdir=/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64-mac-catalyst/freetype/lib
+includedir=/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64-mac-catalyst/freetype/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 25.0.19
+Requires: zlib
+Requires.private: 
+Libs: -L/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64-mac-catalyst/freetype/lib -lfreetype -L/Users/andriizahreichuk/repos/ffmpeg/ffmpeg-kit/prebuilt/apple-ios-arm64-mac-catalyst/libpng/lib
+Libs.private: 
+Cflags: -I${includedir}/freetype2
